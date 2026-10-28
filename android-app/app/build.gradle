@@ -1,0 +1,19 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.freelancerheaven.timetracker'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId 'com.freelancerheaven.timetracker'
+        minSdk 24
+        targetSdk 36
+        versionCode 34
+        versionName '2.2.3-ui-preview'
+    }
+}
+
+dependencies {
+    implementation 'com.google.android.filament:filament-android:1.56.0'
+    implementation 'com.google.android.filament:gltfio-android:1.56.0'
+}

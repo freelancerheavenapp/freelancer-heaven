@@ -1,0 +1,9 @@
+vendor/
+build/
+.gradle/
+local.properties
+*.apk
+*.aab
+*.jks
+*.keystore
+*.blend1
